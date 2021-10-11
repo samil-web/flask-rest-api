@@ -1,3 +1,10 @@
+# POST request /projects -→ create project and save it to csv file
+# GET request /projects -→ get all projects
+# GET request /projects/:id -→ get specific project with id
+# DELETE request /projects/:id -→ delete project by id
+# PUT request /projects/:id -→ update project by id
+# EXTRA
+# POST request / projects/:id -→ update cover picture for project
 import os
 
 import uuid
