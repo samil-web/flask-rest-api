@@ -2,7 +2,7 @@ from flask import Blueprint
 
 from flask_restful import Api
 
-from controller import UsersHandler,UserHandler
+from src.services.users.controller import UsersHandler,UserHandler
 
 """
 
